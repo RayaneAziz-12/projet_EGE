@@ -2,1260 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cea0fc7-dd2f-4522-9d29-cde1852aa090" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/WeatherIcons-Regular.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/feather/feather-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/feather/feather-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/feather/feather-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/simple-Line-Icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/simple-Line-Icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/simple-Line-Icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/weathericons-regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/weathericons-regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/weathericons-regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/gallery/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/sm/avatar1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/sm/avatar2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/sm/avatar3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/sm/avatar4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/sm/avatar5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/sm/avatar6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/staticmap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/themes/dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/themes/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/themes/rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/xs/avatar1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/xs/avatar10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/xs/avatar2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/xs/avatar3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/xs/avatar4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/xs/avatar5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/xs/avatar6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/xs/avatar7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/xs/avatar8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/xs/avatar9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/img/bootstrap-colorpicker/hue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/img/bootstrap-colorpicker/saturation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/counterjs/HDFC Bank Credit Card-may-2019.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/dropify/fonts/dropify.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/dropify/fonts/dropify.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/dropify/fonts/dropify.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/materialdesignicons/materialdesignicons-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/materialdesignicons/materialdesignicons-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/materialdesignicons/materialdesignicons-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/simple-line-icons/Simple-Line-Icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/simple-line-icons/Simple-Line-Icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/simple-line-icons/Simple-Line-Icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/themify/themify.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/themify/themify.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/themify/themify.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/weathericons/weathericons-regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/weathericons/weathericons-regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/weathericons/weathericons-regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/multi-select/img/switch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/font/summernote.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/font/summernote.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/font/summernote.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/apexcharts.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/c3.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/counterup.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/dataTables.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/echarts.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/flot.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/fullcalendar.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/jvectormap1.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/jvectormap2.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/knobjs.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/lib.vendor.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/markdown.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/morris.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/nestable.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/selectize.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/summernote.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/bundles/sweetalert.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/css/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/feather/feather-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/simple-Line-Icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/fonts/weathericons-regular-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/android-browser.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/aol-explorer.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/blackberry.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/camino.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/chrome.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/chromium.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/dolphin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/edge.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/firefox.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/ie.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/maxthon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/mozilla.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/netscape.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/opera.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/safari.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/sleipnir.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/uc-browser.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/browsers/vivaldi.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/chart-report-.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/chart-report.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/crypto/BTC.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/crypto/BTG.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/crypto/DASH.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/crypto/ETC.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/crypto/ETH.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/crypto/LTC.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/crypto/XRP.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/crypto/neo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/crypto/qtum.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/crypto/stellar.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ad.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ae.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/af.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ag.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ai.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/al.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/am.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ao.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/aq.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ar.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/as.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/at.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/au.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/aw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ax.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/az.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ba.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bd.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/be.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bh.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bi.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bj.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bl.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bq.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/br.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bs.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bv.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/by.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/bz.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ca.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cd.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ch.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ci.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ck.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cl.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/co.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cv.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cx.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cy.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/cz.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/de.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/dj.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/dk.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/dm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/do.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/dz.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ec.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ee.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/eg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/eh.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/er.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/es.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/et.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/eu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/fi.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/fj.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/fk.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/fm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/fo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/fr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ga.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gb-eng.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gb-nir.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gb-sct.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gb-wls.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gd.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ge.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gh.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gi.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gl.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gp.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gq.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gs.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/gy.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/hk.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/hm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/hn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/hr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ht.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/hu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/id.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ie.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/il.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/im.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/in.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/io.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/iq.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ir.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/is.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/it.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/je.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/jm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/jo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/jp.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ke.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/kg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/kh.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ki.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/km.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/kn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/kp.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/kr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/kw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ky.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/kz.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/la.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/lb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/lc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/li.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/lk.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/lr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ls.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/lt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/lu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/lv.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ly.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ma.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/md.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/me.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mh.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mk.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ml.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mp.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mq.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ms.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mv.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mx.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/my.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/mz.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/na.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/nc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ne.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/nf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ng.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ni.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/nl.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/no.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/np.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/nr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/nu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/nz.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/om.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pa.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pe.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ph.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pk.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pl.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ps.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/pw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/py.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/qa.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/re.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ro.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/rs.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ru.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/rw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sa.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sd.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/se.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sh.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/si.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sj.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sk.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sl.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/so.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ss.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/st.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sv.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sx.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sy.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/sz.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/td.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/th.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tj.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tk.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tl.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/to.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tv.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/tz.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ua.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ug.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/um.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/un.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/us.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/uy.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/uz.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/va.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/vc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ve.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/vg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/vi.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/vn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/vu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/wf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ws.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/ye.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/yt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/za.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/zm.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/flags/zw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/group-chat.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/logo-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/no-email.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/2checkout-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/2checkout.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/alipay-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/alipay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/amazon-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/amazon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/americanexpress-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/americanexpress.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/applepay-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/applepay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/bancontact-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/bancontact.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/bitcoin-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/bitcoin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/bitpay-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/bitpay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/cirrus-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/cirrus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/clickandbuy-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/clickandbuy.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/coinkite-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/coinkite.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/dinersclub-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/dinersclub.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/directdebit-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/directdebit.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/discover-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/discover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/dwolla-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/dwolla.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/ebay-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/ebay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/eway-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/eway.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/giropay-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/giropay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/googlewallet-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/googlewallet.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/ingenico-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/ingenico.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/jcb-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/jcb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/klarna-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/klarna.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/laser-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/laser.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/maestro-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/maestro.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/mastercard-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/mastercard.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/monero-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/monero.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/neteller-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/neteller.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/ogone-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/ogone.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/okpay-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/okpay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/paybox-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/paybox.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/paymill-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/paymill.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/payone-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/payone.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/payoneer-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/payoneer.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/paypal-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/paypal.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/paysafecard-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/paysafecard.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/payu-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/payu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/payza-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/payza.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/ripple-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/ripple.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/sage-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/sage.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/sepa-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/sepa.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/shopify-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/shopify.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/skrill-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/skrill.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/solo-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/solo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/square-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/square.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/stripe-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/stripe.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/switch-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/switch.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/ukash-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/ukash.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/unionpay-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/unionpay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/verifone-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/verifone.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/verisign-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/verisign.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/visa-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/visa.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/webmoney-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/webmoney.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/westernunion-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/westernunion.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/worldpay-dark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/payments/worldpay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/pricing/plan1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/pricing/plan2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/pricing/plan3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/search.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/slider1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/slider2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/slider3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/images/we-released.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/animate-css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/animate-css/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/animate-css/vivify.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/animate-css/vivify.min.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/apexcharts/apexcharts.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/apexcharts/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/bootstrap-datepicker3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/bootstrap-datetimepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nb.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-multiselect/bootstrap-multiselect.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-multiselect/bootstrap-multiselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-multiselect/bootstrap-multiselect.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/js/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/js/bootstrap.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/js/bootstrap.bundle.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/js/bootstrap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/bootstrap/js/bootstrap.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/chartist-plugin-tooltip/chartist-plugin-tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/chartist-plugin-tooltip/chartist-plugin-tooltip.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/chartjs/chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/charts-c3/c3.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/charts-c3/c3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/charts-c3/d3.v3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/charts-c3/d3.v5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/counterjs/jquery.counterup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/counterjs/jquery.waypoints.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/buttons/buttons.bootstrap4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/buttons/buttons.colVis.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/buttons/buttons.flash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/buttons/buttons.html5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/buttons/buttons.print.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/buttons/dataTables.buttons.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/dataTables.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/dataTables.bootstrap4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/datatablescripts.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/fixedeader/dataTables.fixedColumns.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/fixedeader/dataTables.fixedHeader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/fixedeader/dataTables.fixedcolumns.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/fixedeader/dataTables.fixedheader.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/jquery.dataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/datatable/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/dropify/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/dropify/css/dropify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/dropify/css/dropify.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/dropify/fonts/dropify.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/dropify/js/dropify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/dropify/js/dropify.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/echart/echarts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/echart/echarts.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/editable/ditabletable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/editable/ditabletable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/colorhelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.categories.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.crosshair.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.errorbars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.fillbetween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.navigate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.stack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.symbol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.threshold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flot.time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/flot-charts/flotscripts.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/font-awesome/css/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/fullcalendar/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/fullcalendar/fullcalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/fullcalendar/fullcalendar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/fullcalendar/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/fullcalendar/jqueryui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/fullcalendar/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/gauge/gauge.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/materialdesignicons/materialdesignicons-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/materialdesignicons/materialdesignicons-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/simple-line-icons/Simple-Line-Icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/simple-line-icons/Simple-Line-Icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/themify/themify.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/weathericons/weathericons-regular-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/fonts/weathericons/weathericons-regular-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/plugin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/scss/_materialdesignicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/scss/_simple-line-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/scss/_themify.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/iconfonts/scss/_weathericons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/input-mask/js/jquery.mask.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/input-mask/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-inputmask/inputmask/inputmask.date.extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-inputmask/inputmask/inputmask.dependencyLib.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-inputmask/inputmask/inputmask.extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-inputmask/inputmask/inputmask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-inputmask/inputmask/inputmask.numeric.extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-inputmask/inputmask/inputmask.phone.extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-inputmask/inputmask/inputmask.regex.extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-inputmask/inputmask/jquery.inputmask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-inputmask/jquery.inputmask.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-steps/jquery.steps.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-steps/jquery.steps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-steps/jquery.steps.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/additional-methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_az" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_bn_BD.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_es_AR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_es_PE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_ge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_hy_AM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_kk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_my.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_pt_BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_pt_PT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_sr_lat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_tj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/messages_zh_TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/methods_de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/methods_es_CL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/methods_fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/methods_nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery-validation/localization/methods_pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery.maskedinput/jquery.maskedinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery.maskedinput/jquery.maskedinput.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery/jquery-3.3.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery/jquery-3.4.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery/jquery.slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery/jquery.slim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jquery/jquery.slim.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jvectormap/jvectormap-2.0.3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jvectormap/jvectormap-2.0.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jvectormap/jvectormap-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jvectormap/jvectormap-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jvectormap/jvectormap-uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jvectormap/jvectormap-us.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jvectormap/jvectormap-world.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/jvectormap/jvectormap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/knobjs/knob.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/listjs/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/listjs/list.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/maps-google/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/maps-google/plugin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/markdown/bootstrap-markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/markdown/bootstrap-markdown.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/markdown/markdown-page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/markdown/markdown-plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/markdown/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/markdown/to-markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/metisMenu/metisMenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/metisMenu/metisMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/morrisjs/morris.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/morrisjs/morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/morrisjs/morris.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/morrisjs/morris.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/multi-select/css/multi-select.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/multi-select/js/jquery.multi-select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/nestable/jquery-nestable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/nestable/jquery.nestable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/nouislider/nouislider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/nouislider/nouislider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/nouislider/nouislider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/nouislider/nouislider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/parsleyjs/css/parsley.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/parsleyjs/js/parsley.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/parsleyjs/js/parsley.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/prismjs/js/prism.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/prismjs/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/prismjs/plugin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/raphael/raphael.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/raphael/raphael.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/sparkline/sparkline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/sparkline/sparkline.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ar-AR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ar-AR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-bg-BG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-bg-BG.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ca-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ca-ES.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-cs-CZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-cs-CZ.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-da-DK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-da-DK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-de-DE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-de-DE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-es-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-es-ES.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-es-EU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-es-EU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-fa-IR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-fa-IR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-fi-FI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-fi-FI.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-fr-FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-fr-FR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-gl-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-gl-ES.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-he-IL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-he-IL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-hr-HR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-hr-HR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-hu-HU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-hu-HU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-id-ID.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-id-ID.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-it-IT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-it-IT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ja-JP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ja-JP.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ko-KR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ko-KR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-lt-LT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-lt-LT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-lt-LV.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-lt-LV.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-nb-NO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-nb-NO.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-nl-NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-nl-NL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-pl-PL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-pl-PL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-pt-BR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-pt-PT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-pt-PT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ro-RO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ro-RO.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ru-RU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-ru-RU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-sk-SK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-sk-SK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-sl-SI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-sl-SI.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-sr-RS-Latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-sr-RS-Latin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-sr-RS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-sr-RS.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-sv-SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-sv-SE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-th-TH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-th-TH.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-tr-TR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-tr-TR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-uk-UA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-uk-UA.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-vi-VN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-vi-VN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-zh-CN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/lang/summernote-zh-TW.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/plugin/databasic/summernote-ext-databasic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/plugin/databasic/summernote-ext-databasic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/plugin/databasic/summernote-ext-databasic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/plugin/databasic/summernote-ext-databasic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/plugin/hello/summernote-ext-hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/plugin/hello/summernote-ext-hello.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/plugin/specialchars/summernote-ext-specialchars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/plugin/specialchars/summernote-ext-specialchars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/summernote.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/summernote.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/summernote.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/summernote/dist/summernote.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/sweetalert/sweetalert-dev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/sweetalert/sweetalert.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/sweetalert/sweetalert.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/table-dragger/table-dragger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/table-dragger/table-dragger.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/plugins/table-dragger/table-dragger.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/base/_colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/base/_font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/base/_general.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/base/_helpers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/base/_ui-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/base/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/font/_feather.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/font/_fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/font/_simple-line-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/font/_weather-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/mixins/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/mixins/_css3.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/mixins/_elements-color-custom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/mixins/_responsive.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_blog.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_calendar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_charts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_chat.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_example.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_inbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_jvectormap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_profile.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_social.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_sparkline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_timeline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_widgets-data.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_widgets-social.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_widgets-statistics.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/page/_widgets.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/skins/dark.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/skins/theme1.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_aside.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_avatar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_breadcrumb.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_browser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_cards.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_chips.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_datatables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_flag.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_formwizard.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_icon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_link.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_maps.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_megamenu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_payments.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_selectize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_sidebar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_stamp.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_statuses.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_syntax.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_tag.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/forms/_custom-colorinput.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/forms/_custom-imagecheck.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/forms/_custom-range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/forms/_custom-selectgroup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/forms/_custom-switch.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/assets/scss/uikit/uikit.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/alerts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/avatars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/breadcrumb.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/buttons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/cards.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/charts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/colors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/form-components.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/list-group.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/modal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/pagination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/tags.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/doc/typography.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/app-chat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/app-compose.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/app-contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/app-email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/app-emailveiw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/app-filemanager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/app-social.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/css/dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/css/theme1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/chart/apex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/chart/c3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/chart/echart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/chart/flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/chart/jvectormap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/chart/knobjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/chart/sparkline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/filemanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/form/dropify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/form/form-advanced.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/form/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/form/parsleyjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/form/wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/map/jquery-jvectormap-2.0.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/map/jquery-jvectormap-de-merc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/map/jquery-jvectormap-world-mill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/map/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/page/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/page/dialogs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/page/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/page/sortable-nestable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/page/summernote.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/page/sweetalert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/page/w-other.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/page/w-statistics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/social.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/table/datatable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/table/editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/vendors/circle-progress.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/vendors/selectize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/assets/js/vendors/selectize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/attendance.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/courses.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/departments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/forgot-password.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/holiday.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/hostel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/leave.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/library.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/noticeboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/our-centres.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/page-empty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/page-invoices.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/page-pricing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/page-profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/page-search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/page-timeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/payments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/professors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/setting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/staff.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/students.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/taskboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-dark/transport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/app-chat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/app-compose.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/app-contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/app-email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/app-emailveiw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/app-filemanager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/app-social.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/css/dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/css/theme1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/chart/apex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/chart/c3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/chart/echart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/chart/flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/chart/jvectormap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/chart/knobjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/chart/sparkline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/filemanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/form/dropify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/form/form-advanced.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/form/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/form/parsleyjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/form/wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/map/jquery-jvectormap-2.0.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/map/jquery-jvectormap-de-merc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/map/jquery-jvectormap-world-mill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/map/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/page/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/page/dialogs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/page/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/page/sortable-nestable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/page/summernote.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/page/sweetalert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/page/w-other.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/page/w-statistics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/social.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/table/datatable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/table/editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/vendors/circle-progress.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/vendors/selectize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/assets/js/vendors/selectize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/attendance.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/courses.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/departments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/forgot-password.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/holiday.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/hostel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/leave.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/library.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/our-centres.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/page-empty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/page-invoices.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/page-pricing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/page-profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/page-search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/page-timeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/payments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/professors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/setting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/staff.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/students.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/taskboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university-rtl/transport.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/app-chat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/app-compose.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/app-contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/app-email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/app-emailveiw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/app-filemanager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/app-social.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/css/dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/css/theme1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/chart/apex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/chart/c3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/chart/echart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/chart/flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/chart/jvectormap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/chart/knobjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/chart/sparkline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/filemanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/form/dropify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/form/form-advanced.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/form/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/form/parsleyjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/form/wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/map/jquery-jvectormap-2.0.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/map/jquery-jvectormap-de-merc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/map/jquery-jvectormap-world-mill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/map/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/page/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/page/dialogs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/page/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/page/sortable-nestable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/page/summernote.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/page/sweetalert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/page/w-other.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/page/w-statistics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/social.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/table/datatable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/table/editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/vendors/circle-progress.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/vendors/selectize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/assets/js/vendors/selectize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/attendance.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/courses-details.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/courses.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/departments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/forgot-password.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/holiday.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/hostel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/leave.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/library.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/noticeboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/our-centres.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/page-empty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/page-invoices.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/page-pricing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/page-profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/page-search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/page-timeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/payments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/professors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/setting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/staff.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/students.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/taskboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/template/university/transport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/bundles.php" afterPath="$PROJECT_DIR$/config/bundles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/security.yaml" afterPath="$PROJECT_DIR$/config/packages/security.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/DashboardController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/common/page-top.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html.twig" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1266,18 +17,100 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="513">
               <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4775">
+              <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/template/university/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1699" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="817" column="0" lean-forward="false" selection-start-line="817" selection-start-column="0" selection-end-line="817" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/DashboardController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dashboard/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-top.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/common/page-top.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>incl</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1286,6 +119,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/Controller/DashboardController.php" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/dashboard/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/common/page-top.html.twig" />
       </list>
     </option>
   </component>
@@ -1317,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1339,14 +178,112 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="var" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="var" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_EGE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1365,6 +302,69 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -1375,34 +375,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622668007935</updated>
-      <workItem from="1622668009969" duration="3502000" />
+      <workItem from="1622668009969" duration="4128000" />
+      <workItem from="1622883903921" duration="598000" />
+      <workItem from="1623011638218" duration="3636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3502000" />
+    <option name="totallyTimeSpent" value="8362000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2583784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3314154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3314154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2583784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1417,8 +439,112 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="750">
           <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4825">
+          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4825">
+          <caret line="193" column="0" lean-forward="true" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4775">
+          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="817" column="0" lean-forward="false" selection-start-line="817" selection-start-column="0" selection-end-line="817" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/log/dev.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="138">
+          <caret line="38" column="777" lean-forward="false" selection-start-line="38" selection-start-column="777" selection-end-line="38" selection-end-column="777" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/template/university/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1699" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboard/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/page-top.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
           <folding />
         </state>
       </provider>
