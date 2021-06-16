@@ -5,6 +5,8 @@ namespace App\Entity;
 use App\Repository\UserRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
+use App\Entity\Traits\CommonFields;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * @ORM\Entity(repositoryClass=UserRepository::class)
@@ -12,10 +14,12 @@ use Symfony\Component\Security\Core\User\UserInterface;
  */
 class User implements UserInterface
 {
+    use CommonFields;
     /**
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
+     * @Groups({"user:read"})
      */
     private $id;
 
@@ -25,18 +29,21 @@ class User implements UserInterface
     private $login;
 
     /**
-     * @ORM\Column(type="json")
+     * @ORM\Column(type="json", nullable=true)
+     * @Groups({"user:read", "user:write"})
      */
     private $roles = [];
 
     /**
      * @var string The hashed password
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", nullable=true)
+     * @Groups({"user:read", "user:write"})
      */
     private $password;
 
     /**
      * @ORM\Column(type="string", length=100)
+     * @Groups({"user:read", "user:write"})
      */
     private $nom;
 
@@ -51,7 +58,7 @@ class User implements UserInterface
     private $email;
 
     /**
-     * @ORM\Column(type="string", length=20)
+     * @ORM\Column(type="string", length=20, nullable=true)
      */
     private $telephone;
 
@@ -69,6 +76,8 @@ class User implements UserInterface
      * @ORM\Column(type="date")
      */
     private $dateNaissance;
+
+    
 
     public function getId(): ?int
     {
@@ -234,4 +243,5 @@ class User implements UserInterface
 
         return $this;
     }
+
 }
