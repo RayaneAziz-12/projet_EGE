@@ -84,8 +84,6 @@
                                                  <img class="avatar" src="../assets/images/xs/avatar1_femme.png" alt="{{etudiant.sexe}}">
                                                          
                                             {% endif %}
-                                        
-                                            
                                         </td>
                                         <td>{{etudiant.id}}</td>
                                         <td>{{etudiant.user.nom}}</td>
@@ -93,7 +91,10 @@
                                         <td>{{etudiant.user.email}}</td>
                                         <td>{{etudiant.user.telephone}}</td>
                                         <td>{{etudiant.user.dateNaissance|date('m/d/Y') }}</td>
-                                        <td>{% for formation in formations %}{{formation.nom}}   &nbsp; {% endfor %}</td>
+                                        <td>{% for formation in formations %}
+                                                {{formation.formation.nom}}   &nbsp;
+                                            {% endfor %}
+                                        </td>
                                         <td>
                                             <button type="button" class="btn btn-icon btn-sm" title="View"><i class="fa fa-eye"></i></button>
                                             <button type="button" class="btn btn-icon btn-sm" title="Edit"><i class="fa fa-edit"></i></button>

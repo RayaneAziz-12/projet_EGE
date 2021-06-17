@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
+use App\Entity\Traits\CommonFields;
 use App\Repository\AnneeScolaireRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
@@ -35,6 +36,11 @@ class AnneeScolaire
      * @ORM\OneToMany(targetEntity=Formation::class, mappedBy="anneeScolaires")
      */
     private $formations;
+
+    /**
+     * @ORM\ManyToOne(targetEntity=AnneeScolaireStatut::class)
+     */
+    private $statut;
 
     public function __construct()
     {
@@ -96,6 +102,18 @@ class AnneeScolaire
                 $formation->setAnneeScolaires(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getStatut(): ?AnneeScolaireStatut
+    {
+        return $this->statut;
+    }
+
+    public function setStatut(?AnneeScolaireStatut $statut): self
+    {
+        $this->statut = $statut;
 
         return $this;
     }

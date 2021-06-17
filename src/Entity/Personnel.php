@@ -32,10 +32,16 @@ class Personnel
      */
     private $cours;
 
+    /**
+     * @ORM\OneToMany(targetEntity=AnneeScolaireFormation::class, mappedBy="responsable")
+     */
+    private $formations;
+
      
     public function __construct()
     {
         $this->cours = new ArrayCollection();
+        $this->formations = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -79,6 +85,36 @@ class Personnel
             // set the owning side to null (unless already changed)
             if ($cour->getPersonnel() === $this) {
                 $cour->setPersonnel(null);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|AnneeScolaireFormation[]
+     */
+    public function getFormations(): Collection
+    {
+        return $this->formations;
+    }
+
+    public function addFormation(AnneeScolaireFormation $formation): self
+    {
+        if (!$this->formations->contains($formation)) {
+            $this->formations[] = $formation;
+            $formation->setResponsable($this);
+        }
+
+        return $this;
+    }
+
+    public function removeFormation(AnneeScolaireFormation $formation): self
+    {
+        if ($this->formations->removeElement($formation)) {
+            // set the owning side to null (unless already changed)
+            if ($formation->getResponsable() === $this) {
+                $formation->setResponsable(null);
             }
         }
 

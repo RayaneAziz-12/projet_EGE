@@ -24,30 +24,9 @@ class Formation
     private $id;
 
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="string", length=255)
      */
-    private $dateDebut;
-
-    /**
-     * @ORM\Column(type="date")
-     */
-    private $dateFin;
-
-    /**
-     * @ORM\ManyToOne(targetEntity=Bulletins::class, inversedBy="formation")
-     * @ORM\JoinColumn(nullable=true)
-     */
-    private $bulletins;
-
-    /**
-     * @ORM\OneToMany(targetEntity=Examen::class, mappedBy="formation")
-     */
-    private $examen;
-
-    /**
-     * @ORM\OneToMany(targetEntity=Ue::class, mappedBy="formation")
-     */
-    private $ue;
+    private $nom;
 
     /**
      * @ORM\OneToMany(targetEntity=Matiere::class, mappedBy="formation")
@@ -55,24 +34,22 @@ class Formation
     private $matieres;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Etudiant::class, inversedBy="formations")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\OneToMany(targetEntity=Ue::class, mappedBy="formation")
      */
-    private $etudiant;
+    private $ue;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="text", nullable=true)
      */
-    private $nom;
+    private $description;
 
     /**
-     * @ORM\ManyToOne(targetEntity=anneeScolaire::class, inversedBy="formations")
+     * @ORM\Column(type="integer")
      */
-    private $anneeScolaires;
+    private $duree;
 
     public function __construct()
     {
-        $this->examen = new ArrayCollection();
         $this->ue = new ArrayCollection();
         $this->matieres = new ArrayCollection();
     }
@@ -83,71 +60,6 @@ class Formation
         return $this->id;
     }
 
-    public function getDateDebut(): ?\DateTimeInterface
-    {
-        return $this->dateDebut;
-    }
-
-    public function setDateDebut(\DateTimeInterface $dateDebut): self
-    {
-        $this->dateDebut = $dateDebut;
-
-        return $this;
-    }
-
-    public function getDateFin(): ?\DateTimeInterface
-    {
-        return $this->dateFin;
-    }
-
-    public function setDateFin(\DateTimeInterface $dateFin): self
-    {
-        $this->dateFin = $dateFin;
-
-        return $this;
-    }
-
-    public function getBulletins(): ?Bulletins
-    {
-        return $this->bulletins;
-    }
-
-    public function setBulletins(?Bulletins $bulletins): self
-    {
-        $this->bulletins = $bulletins;
-
-        return $this;
-    }
-
-    /**
-     * @return Collection|Examen[]
-     */
-    public function getExamen(): Collection
-    {
-        return $this->examen;
-    }
-
-    public function addExaman(Examen $examan): self
-    {
-        if (!$this->examen->contains($examan)) {
-            $this->examen[] = $examan;
-            $examan->setFormation($this);
-        }
-
-        return $this;
-    }
-
-    public function removeExaman(Examen $examan): self
-    {
-        if ($this->examen->removeElement($examan)) {
-            // set the owning side to null (unless already changed)
-            if ($examan->getFormation() === $this) {
-                $examan->setFormation(null);
-            }
-        }
-
-        return $this;
-    }
 
     /**
      * @return Collection|Ue[]
@@ -209,17 +121,6 @@ class Formation
         return $this;
     }
 
-    public function getEtudiant(): ?Etudiant
-    {
-        return $this->etudiant;
-    }
-
-    public function setEtudiant(?Etudiant $etudiant): self
-    {
-        $this->etudiant = $etudiant;
-
-        return $this;
-    }
 
     public function getNom(): ?string
     {
@@ -233,16 +134,29 @@ class Formation
         return $this;
     }
 
-    public function getAnneeScolaires(): ?anneeScolaire
+    public function getDescription(): ?string
     {
-        return $this->anneeScolaires;
+        return $this->description;
     }
 
-    public function setAnneeScolaires(?anneeScolaire $anneeScolaires): self
+    public function setDescription(?string $description): self
     {
-        $this->anneeScolaires = $anneeScolaires;
+        $this->description = $description;
 
         return $this;
     }
+
+    public function getDuree(): ?int
+    {
+        return $this->duree;
+    }
+
+    public function setDuree(int $duree): self
+    {
+        $this->duree = $duree;
+
+        return $this;
+    }
+
 
 }

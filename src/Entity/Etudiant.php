@@ -53,21 +53,22 @@ class Etudiant
      */
     private $bulletins;
 
-    /**
-     * @ORM\OneToMany(targetEntity=Formation::class, mappedBy="etudiant")
-     */
-    private $formations;
 
     /**
      * @ORM\Column(type="string", length=10)
      */
     private $sexe;
 
+    /**
+     * @ORM\ManyToMany(targetEntity=AnneeScolaireFormation::class, inversedBy="etudiants")
+     */
+    private $Formations;
+
     public function __construct()
     {
         $this->notes = new ArrayCollection();
         $this->bulletins = new ArrayCollection();
-        $this->formations = new ArrayCollection();
+        $this->Formations = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -159,36 +160,6 @@ class Etudiant
         return $this;
     }
 
-    /**
-     * @return Collection|Formation[]
-     */
-    public function getFormations(): Collection
-    {
-        return $this->formations;
-    }
-
-    public function addFormation(Formation $formation): self
-    {
-        if (!$this->formations->contains($formation)) {
-            $this->formations[] = $formation;
-            $formation->setEtudiant($this);
-        }
-
-        return $this;
-    }
-
-    public function removeFormation(Formation $formation): self
-    {
-        if ($this->formations->removeElement($formation)) {
-            // set the owning side to null (unless already changed)
-            if ($formation->getEtudiant() === $this) {
-                $formation->setEtudiant(null);
-            }
-        }
-
-        return $this;
-    }
-
     public function getSexe(): ?string
     {
         return $this->sexe;
@@ -197,6 +168,30 @@ class Etudiant
     public function setSexe(string $sexe): self
     {
         $this->sexe = $sexe;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|AnneeScolaireFormation[]
+     */
+    public function getFormations(): Collection
+    {
+        return $this->Formations;
+    }
+
+    public function addFormation(AnneeScolaireFormation $formation): self
+    {
+        if (!$this->Formations->contains($formation)) {
+            $this->Formations[] = $formation;
+        }
+
+        return $this;
+    }
+
+    public function removeFormation(AnneeScolaireFormation $formation): self
+    {
+        $this->Formations->removeElement($formation);
 
         return $this;
     }

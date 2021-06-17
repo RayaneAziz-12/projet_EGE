@@ -35,9 +35,6 @@ class EtudiantController extends AbstractController
             'anneeScolaire' => $anneeScolaire,
             'formation' => $formation,
             'sexe' => $sexe,
-           
-           
-            
         ]);
     }
 
