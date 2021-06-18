@@ -1,0 +1,66 @@
+<div class="col-lg-8 col-md-12 col-sm-12">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Informations basiques</h3>
+            <div class="card-options ">
+                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                <a href="#" class="card-options-remove" data-toggle="card-remove"><i class="fe fe-x"></i></a>
+            </div>
+        </div>
+        <form  method="post" action="{{ path('etudiant_new') }}">
+        <div class="card-body" style="display: block">
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Nom <span class="text-danger">*</span></label>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" placeholder="Entrez votre nom" name="nom" id="nom" required>
+                    <small class="msgNom"></small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Prénom <span class="text-danger">*</span></label>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" placeholder="Entrez votre prénom" name="prenom" id="prenom" required>
+                    <small class="msgPrenom"></small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Email <span class="text-danger">*</span></label>
+                <div class="col-md-9">
+                    <input type="email" class="form-control" id="email" name="email" required>
+                    <small class="msgEmail"></small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Sexe <span class="text-danger">*</span></label>
+                <div class="col-md-9">
+                    <select class="form-control input-height" name="sexe" id="sexe" required>
+                        <option value="">Choisir...</option>
+                        {% for sex in sexe %}
+                            <option value="{{sex.nom}}">{{sex.nom}}</option>
+                        {% endfor %}
+                    </select>
+                    <small class="msgSexe"></small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Télephone <span class="text-danger">*</span></label>
+                <div class="col-md-9">
+                    <input type="tel" class="form-control" id="telephone" name="telephone" required>
+                    <small class="msgTel">EX: +229 97 97 97 97 ou +229 97-97-97-97</small>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label">Date de naissance  <span class="text-danger">*</span></label>
+                <div class="col-md-9">
+                    <input type="date" class="form-control" id="date_naissance" name="date_naissance" >
+                    <small class="msgDateNaissance"></small>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <button type="button" id="suivant" onclick=""  class="btn btn-primary" disabled="true" >Suivant</button>
+                <button type="button" class="btn btn-outline-secondary" id="modifier" style="display: none">Modifier</button>
+            </div>
+        </div>
+    </div>
+</div>

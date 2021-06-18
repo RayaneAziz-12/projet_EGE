@@ -1,98 +1,139 @@
-var nomValidator = false;
-var prenomValidator = false;
-var emailValidator = false;
-var telephoneValidator = false;
-
-function getName(){
-    
-}
+var NOMVALIDATOR = false;
+var PRENOMVALIDATOR = false;
+var EMAILVALIDATOR = false;
+var TELVALIDATOR = false;
+var SEXVALIDATOR = false;
 
 $("#nom").on("change", function(){
     var nom = this.value;
-    console.log("nom: ", nom);
-    let nomValide = /^[a-zA-Z ]+$/.test(nom);
-    console.log("nomValide: ", nomValide);
+    let nomValide = /^[a-zA-Z éèêëàâäîïûü-]+$/.test(nom);
     if(!nomValide){
-        let nameStatus;
-        alert("Veuillez entrer un nom correct svp !");
-        document.getElementById("nom").style.border = "1px solid red";
-        nameStatus = false;
+        $("#nom").css('border','1px solid red');
+        NOMVALIDATOR = false;
+        $('.msgNom').html('Le nom ne peut contenir ni des chiffres, ni des caractères spéciaux');
     }
     else{
-        nameStatus = true;
+        NOMVALIDATOR = true;
+        $("#nom").css('border','1px solid green');
+        $('.msgNom').html('');
     }
-    console.log("nameStatus: ", nameStatus);
-    nomValidator = nameStatus;
-    this.onForm();
+    checkForm();
 })
 
-
-
-
-function getFirstName(){
-    var prenom = document.getElementById("prenom").value;
-    console.log("prenom: ", prenom);
-    let prenomValide = /^[a-zA-Z ]+$/.test(prenom);
-    console.log("prenomValide: ", prenomValide);
+$("#prenom").on("change", function(){
+    var prenom = this.value;
+    let prenomValide = /^[a-zA-Z éèêëàâäîïûü-]+$/.test(prenom);
     if(!prenomValide){
-        let FirstNameStatus;
-        alert("Veuillez entrer un prenom correct svp !");
-        document.getElementById("prenom").style.border = "1px solid red";
-        FirstNameStatus = false;
+        $("#prenom").css('border','1px solid red');
+        PRENOMVALIDATOR = false;
+        $('.msgPrenom').html('Le prénom ne peut contenir ni des chiffres, ni des caractères spéciaux');
     }
     else{
-        FirstNameStatus = true;
+        PRENOMVALIDATOR = true;
+        $("#prenom").css('border','1px solid green');
+        $('.msgPrenom').html('');
     }
-    console.log("FirstNameStatus: ", FirstNameStatus);
-    return FirstNameStatus;
-}
+    checkForm();
+})
 
-function getEmail(){
-    var email = document.getElementById("email").value;
-    console.log("email: ", email);
+$("#sexe").on("change", function(){
+    var sexe = this.value;
+    if(sexe === ""){
+        $("#sexe").css('border','1px solid red');
+        SEXVALIDATOR = false;
+        $('.msgSexe').html('Vous devez choisir un sexe');
+    }
+    else{
+        SEXVALIDATOR = true;
+        $("#sexe").css('border','1px solid green');
+        $('.msgSexe').html('');
+    }
+    checkForm();
+})
+
+$("#email").on("change", function(){
+    var email = this.value;
     var emailReg = new RegExp(/^([\w-\.]+)@((?:[\w]+\.)+)([a-zA-Z]{2,4})/i);
-    var emailValide = emailReg.test(email);
-    console.log("emailValide: ", emailValide);
+    let emailValide = emailReg.test(email);
     if(!emailValide){
-        let emailStatus;
-        alert("Veuillez entrer un email correct svp !");
-        document.getElementById("email").style.border = "1px solid red";
+        $("#email").css('border','1px solid red');
+        EMAILVALIDATOR = false;
+        $('.msgEmail').html('Cet E-mail n\'est pas valide');
     }
     else{
-        emailStatus = true;
+        EMAILVALIDATOR = true;
+        $("#email").css('border','1px solid green');
+        $('.msgEmail').html('');
     }
-    console.log("emailStatus: ", emailStatus);
-    return emailStatus;
-}
+    checkForm();
+})
 
-function getTelephone(){
-    var telephone = document.getElementById("telephone").value;
-    console.log("telephone: ", telephone);
-    let telephoneValide = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im.test(telephone);
-    console.log("telephoneValide: ", telephoneValide);
-
-    if(!telephoneValide){
-        let telephoneStatus;
-        alert("Veuillez entrer un numero de telephone correct svp !");
-        document.getElementById("telephone").style.border = "1px solid red";
+$("#telephone").on("change", function(){
+    var tel = this.value;
+    var telReg = new RegExp(/^[\+]?[0-9]{3}[-\s\.]?[0-9]{2}[-\s\.]?[0-9]{2}[-\s\.]?[0-9]{2}[-\s\.]?[0-9]{2}$/im);
+    let telValide = telReg.test(tel);
+    if(!telValide){
+        $("#telephone").css('border','1px solid red');
+        TELVALIDATOR = false;
+        $('.msgTel').html('Le numéros de téléphone doit être au format +229 97 97 97 97 ou +229 97-97-97-97');
     }
     else{
-        telephoneStatus = true;
+        TELVALIDATOR = true;
+        $("#telephone").css('border','1px solid green');
+        $('.msgTel').html('');
     }
-    console.log("telephoneStatus: ", telephoneStatus);
-    return telephoneStatus;
-}
+    checkForm();
+})
 
-function getFormValue(event){
-    event.preventDefault();
-    
-    
-}
+$('#suivant').on('click',function(){
+    $(this).prop('disabled',true);
+    activeForm2();
+    desactiveForm1();
+    $("#modifier").show('slow');
+    $("#anneeScolaire").trigger('click');
+});
 
-function onForm(){
-    if(nomValidator == true && prenomValidator == true && emailValidator == true && telephoneValidator == true){
-        $("#submit").prop('disabled', false);
+$('#modifier').on('click',function(){
+    $(this).prop('disabled',true);
+    activeForm1();
+    desactiveForm2();
+    $("#modifier").hide('fast');
+    $("#nom").focusin;
+});
+
+function checkForm(){
+    console.log(NOMVALIDATOR,PRENOMVALIDATOR,EMAILVALIDATOR,TELVALIDATOR,SEXVALIDATOR);
+    if(NOMVALIDATOR === true && PRENOMVALIDATOR === true && EMAILVALIDATOR === true && TELVALIDATOR === true && SEXVALIDATOR === true){
+        $("#suivant").prop('disabled', false);
     } else {
-        $("#submit").prop('disabled', true);
+        $("#suivant").prop('disabled', true);
     }
+}
+
+function activeForm2(){
+    $("#anneeScolaire").prop('readonly',false);
+    $("#formation").prop('readonly',false);
+}
+function desactiveForm2(){
+    $("#anneeScolaire").prop('readonly',true);
+    $("#formation").prop('readonly',true);
+}
+
+function activeForm1(){
+    $("#nom").prop('readonly',false);
+    $("#nom").css('border','1px solid green');
+    $("#prenom").prop('readonly',false);
+    $("#sexe").prop('readonly',false);
+    $("#email").prop('readonly',false);
+    $("#telephone").prop('readonly',false);
+}
+
+function desactiveForm1(){
+    $("#nom").prop('readonly',true);
+    $("#nom").css('border','0 ');
+    $("#nom").css('background-color','white !important');
+    $("#prenom").prop('readonly',true);
+    $("#sexe").prop('readonly',true);
+    $("#email").prop('readonly',true);
+    $("#telephone").prop('readonly',true);
 }
