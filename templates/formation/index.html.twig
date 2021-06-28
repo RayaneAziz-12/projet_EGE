@@ -1,0 +1,86 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Etudiant index{% endblock %}
+
+{% block body %}
+    {{ include('common/page-top.html.twig') }}
+    <div class="section-body">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center ">
+                <div class="header-action">
+                    <h1 class="page-title">Formation</h1>
+                    <ol class="breadcrumb page-breadcrumb">
+                        <li class="breadcrumb-item"><a href="{{ path('dashboard') }}">{{ school_name }}</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Formations</li>
+                    </ol>
+                </div>
+                <ul class="nav nav-tabs page-header-tab">
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Courses-all">Formations </a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Courses-add">Ajouter une formation</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section-body mt-4">
+        <div class="container-fluid">
+            <div class="tab-content">
+                <div class="tab-pane active" id="Courses-all">
+                    <div class="row row-deck">
+                        {% for formation in formations %}
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="card">
+                                    <a href="#"><img class="card-img-top" src="../assets/images/gallery/icone_formation_2.png" alt=""></a>
+                                    <div class="card-body d-flex flex-column">
+                                        <h5><a href="courses-details.html">{{ formation.formation.nom }}</a></h5>
+                                        <div class="text-muted">{{ formation.formation.description }}</div>
+                                    </div>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-vcenter mb-0">
+                                            <tbody>
+                                            <tr>
+                                                <td class="w20"><i class="fa fa-calendar text-blue"></i></td>
+                                                <td class="tx-medium">Durée</td>
+                                                <td class="text-right">{{ formation.formation.duree }} Mois</td>
+                                            </tr>
+                                            <tr>
+                                                <td><i class="fa fa-cc-visa text-danger"></i></td>
+                                                <td class="tx-medium">Coût</td>
+                                                {% if formation.cout is null %}
+                                                    <td class="text-right"> Gratuit</td>
+                                                {% else %}
+                                                    <td class="text-right">{{ formation.cout }} XOF</td>
+                                                {% endif %}
+
+                                            </tr>
+                                            <tr>
+                                                <td><i class="fa fa-users text-warning"></i></td>
+                                                <td class="tx-medium">Eleves</td>
+                                                <td class="text-right">125+</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="d-flex align-items-center mt-auto">
+                                            <img class="avatar avatar-md mr-3" src="../assets/images/xs/avatar1_femme.png" alt="avatar">
+                                            <div>
+                                                <a href="#">Pro. Jane</a>
+                                                <small class="d-block text-muted">Resp de la formation.</small>
+                                            </div>
+                                            <div class="ml-auto text-muted">
+                                                <a href="javascript:void(0)" class="icon d-none d-md-inline-block ml-3"><i class="fe fe-heart mr-1"></i> 521</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                
+
+    </div>
+{% endblock %}
+ {% block javascripts %}
+    <script src="{{ asset('assets/js/form_validator_etudiants.js') }}"></script>
+ {%endblock %}

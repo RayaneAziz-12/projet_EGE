@@ -1,0 +1,126 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Etudiant index{% endblock %}
+
+{% block body %}
+    {{ include('common/page-top.html.twig') }}
+    <div class="section-body">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-between align-items-center ">
+                    <div class="header-action">
+                        <h1 class="page-title">Elèves de {{school_name}}</h1>
+                        <ol class="breadcrumb page-breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{path('dashboard')}}">{{school_name}}</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Elèves</li>
+                        </ol>
+                    </div>
+                    <ul class="nav nav-tabs page-header-tab">
+                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Student-all">Liste des élèves</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Student-add">Ajouter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section-body mt-4">
+            <div class="container-fluid">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="Student-all">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-4 col-sm-6">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Id">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-sm-6">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Nom">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Formation">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-sm-6">
+                                        <div class="input-group">
+                                            <input data-provide="datepicker" data-date-autoclose="true" class="form-control" placeholder="Admission Date">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-sm-6">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-primary btn-block" title="">Rechercher</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive card">
+                            <table class="table table-hover table-vcenter table-striped mb-0 text-nowrap">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Id</th>
+                                        <th>Nom</th>
+                                        <th>Prenom</th>
+                                        <th>Email</th>
+                                        <th>Telephone</th>
+                                        <th>Adresse</th>
+                                        <th>Date de naissance</th>
+                                        <th>Formation</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                               {% for etudiant in etudiants %}
+                               {% set formations = etudiant.formations %}
+                                    <tr>
+                                        <td class="w60">
+                                      
+                                            {% if etudiant.sexe == "Masculin" %}
+
+                                                 <img class="avatar" src="../assets/images/xs/avatar1_homme.jpg" alt="{{etudiant.sexe}}">
+
+                                            {% elseif etudiant.sexe == "Feminin" %}
+
+                                                 <img class="avatar" src="../assets/images/xs/avatar1_femme.png" alt="{{etudiant.sexe}}">
+                                                         
+                                            {% endif %}
+                                        </td>
+                                        <td>{{etudiant.id}}</td>
+                                        <td>{{etudiant.user.nom}}</td>
+                                        <td>{{etudiant.user.prenom}}</td>
+                                        <td>{{etudiant.user.email}}</td>
+                                        <td>{{etudiant.user.telephone}}</td>
+                                        <td>{{etudiant.user.adresse}}</td>
+                                        <td>{{etudiant.user.dateNaissance|date('m/d/Y') }}</td>
+                                        <td>{% for formation in formations %}
+                                                {{formation.formation.nom}}   &nbsp;
+                                            {% endfor %}
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-icon btn-sm" title="View"><i class="fa fa-eye"></i></button>
+                                            <button type="button" class="btn btn-icon btn-sm" title="Edit"><i class="fa fa-edit"></i></button>
+                                            <button type="button" class="btn btn-icon btn-sm js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></button>
+                                        </td>
+                                     </tr>
+                                {% endfor %}
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="Student-add">
+                        <div class="row clearfix">
+                                {{ include('etudiant/form/etudiant_form_part1.html.twig') }}
+                                {{ include('etudiant/form/etudiant_form_part2.html.twig') }}
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}
+ {% block javascripts %}
+    <script src="{{ asset('assets/js/jquery-3.4.1.min.js') }}"></script>
+    <script src="{{ asset('assets/js/form_validator_etudiants.js') }}"></script>
+ {%endblock %}
