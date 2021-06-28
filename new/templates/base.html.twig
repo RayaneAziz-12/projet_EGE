@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+    {% endblock %}
+    <!-- Bootstrap Core and vandor -->
+    <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}" />
+
+    <!-- Plugins css -->
+    <link rel="stylesheet" href="{{ asset('assets/plugins/summernote/dist/summernote.css') }}"/>
+
+    <link rel="stylesheet" href="{{ asset('assets/css/style.min.css') }}"/>
+   
+</head>
+
+<body class="font-muli theme-cyan gradient">
+<!-- Page Loader -->
+<div class="page-loader-wrapper">
+    <div class="loader">
+    </div>
+</div>
+
+<div id="main_content">
+    <!-- Start Main top header -->
+    <!-- Start Rightbar setting panel -->
+                     {{ include('common/right-sidebar.html.twig') }}
+    <!-- Start Theme panel do not add in project -->
+    <div class="theme_div">
+
+        <div class="card">
+            <div class="card-body">
+                <ul class="list-group list-unstyled">
+                    <li class="list-group-item mb-2">
+                        <p>Light Version</p>
+                        <a href="../university/index.html"><img src="../assets/images/themes/default.png" class="img-fluid" alt="" /></a>
+                    </li>
+                    <li class="list-group-item mb-2">
+                        <p>Dark Version</p>
+                        <a href="../university-dark/index.html"><img src="../assets/images/themes/dark.png" class="img-fluid" alt="" /></a>
+                    </li>
+                    <li class="list-group-item mb-2">
+                        <p>RTL Version</p>
+                        <a href="../university-rtl/index.html"><img src="../assets/images/themes/rtl.png" class="img-fluid" alt="" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Start Main leftbar navigation -->
+     {{ include('common/left-sidebar.html.twig') }}
+    <!-- Start project content area -->
+    <div class="page">
+        {% block body %}
+            <!-- Start Page header -->
+            <!-- Start Page title and tab -->
+           
+        {% endblock %}
+
+    </div>
+</div>8
+<!-- Start Main project js, jQuery, Bootstrap -->
+<script src="{{ asset('assets/bundles/lib.vendor.bundle.js') }}"></script>
+<script src=" {{ asset('assets/js/jquery-3.4.1.min') }}"></script>
+
+<!-- Start all plugin js -->
+<script src=" {{ asset('assets/bundles/counterup.bundle.js') }}"></script>
+<script src=" {{ asset('assets/bundles/apexcharts.bundle.js') }}"></script>
+<script src=" {{ asset('assets/bundles/summernote.bundle.js') }}"></script>
+
+<!-- Start project main js  and page js -->
+<script src=" {{ asset('assets/js/core.js') }}"></script>
+<script src=" {{ asset('assets/js/page/index.js') }}"></script>
+<script src=" {{ asset('assets/js/page/summernote.js') }}"></script>
+{% block javascripts %}{% endblock %}
+</body>
+</html>

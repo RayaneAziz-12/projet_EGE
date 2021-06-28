@@ -35,8 +35,8 @@
                 <div class="col-md-9">
                     <select class="form-control input-height" name="sexe" id="sexe" required>
                         <option value="">Choisir...</option>
-                        {% for sex in sexe %}
-                            <option value="{{sex.nom}}">{{sex.nom}}</option>
+                        {% for sexe in sexes %}
+                            <option value="{{sexe.nom}}">{{sexe.nom}}</option>
                         {% endfor %}
                     </select>
                     <small class="msgSexe"></small>

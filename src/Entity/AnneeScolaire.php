@@ -33,7 +33,7 @@ class AnneeScolaire
     private $dateFin;
 
     /**
-     * @ORM\OneToMany(targetEntity=Formation::class, mappedBy="anneeScolaires")
+     * @ORM\OneToMany(targetEntity=AnneeScolaireFormation::class, mappedBy="anneeScolaire")
      */
     private $formations;
 
@@ -41,6 +41,11 @@ class AnneeScolaire
      * @ORM\ManyToOne(targetEntity=AnneeScolaireStatut::class)
      */
     private $statut;
+
+    /**
+     * @ORM\Column(type="boolean")
+     */
+    private $isDeleted;
 
     public function __construct()
     {
@@ -114,6 +119,18 @@ class AnneeScolaire
     public function setStatut(?AnneeScolaireStatut $statut): self
     {
         $this->statut = $statut;
+
+        return $this;
+    }
+
+    public function getIsDeleted(): ?bool
+    {
+        return $this->isDeleted;
+    }
+
+    public function setIsDeleted(bool $isDeleted): self
+    {
+        $this->isDeleted = $isDeleted;
 
         return $this;
     }

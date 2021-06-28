@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Etudiant;
 use App\Entity\User;
 use App\Form\EtudiantType;
+use App\Repository\AnneeScolaireFormationRepository;
 use App\Repository\EtudiantRepository;
 use App\Repository\UserRepository;
 use App\Repository\AnneeScolaireRepository;
@@ -32,18 +33,32 @@ class EtudiantController extends AbstractController
     /**
      * @Route("/", name="etudiant_index", methods={"GET"})
      */
-    public function index(EtudiantRepository $etudiantRepository,AnneeScolaireRepository $anneeScolaireRepository,FormationRepository $formationRepository, SexeRepository $sexeRepository ): Response
+    public function index(
+        EtudiantRepository $etudiantRepository,
+        AnneeScolaireRepository $anneeScolaireRepository,
+        FormationRepository $formationRepository,
+        AnneeScolaireFormationRepository $anneeScolaireFormationRepository,
+        SexeRepository $sexeRepository,
+        Request $request): Response
     {
-        $formation = $formationRepository->findby(["isDeleted"=> false,"isActived"=> true]);
-        $anneeScolaire = $anneeScolaireRepository->findAll();
-        $sexe = $sexeRepository->findAll();
-        $etudiant = $etudiantRepository->findBy(["isDeleted"=> false]);
-        /*dd($etudiant);*/
+        $session = $request->getSession();
+        $anneeScolaire = $session->get('annee_scolaire');
+        $etudiants = $etudiantRepository->findBy(["isDeleted"=> false]);
+        $formations = [];
+        if($anneeScolaire !== null){
+            $formations = $anneeScolaireFormationRepository->findby([
+                "isDeleted"=> false,
+                "isActived"=> true,
+                "anneeScolaire"=>$anneeScolaire->id]);
+        }
+//        dd($anneeScolaire,$formations);
+        $anneeScolaires = $anneeScolaireRepository->findAll();
+        $sexes = $sexeRepository->findAll();
         return $this->render('etudiant/index.html.twig', [
-            'etudiants' => $etudiant,
-            'anneeScolaire' => $anneeScolaire,
-            'formation' => $formation,
-            'sexe' => $sexe,
+            'etudiants' => $etudiants,
+            'anneeScolaires' => $anneeScolaires,
+            'formations' => $formations,
+            'sexes' => $sexes,
         ]);
     }
 

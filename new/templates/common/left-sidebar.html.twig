@@ -1,0 +1,37 @@
+<div id="left-sidebar" class="sidebar">
+        <h5 class="brand-name">E.G.E<a href="javascript:void(0)" class="menu_option float-right"><i class="icon-grid font-16" data-toggle="tooltip" data-placement="left" title="Grid & List Toggle"></i></a></h5>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#menu-uni">Ecole</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu-admin">Admin</a></li>
+        </ul>
+        <div class="tab-content mt-3">
+            <div class="tab-pane fade show active" id="menu-uni" role="tabpanel">
+                <nav class="sidebar-nav">
+                    <ul class="metismenu">
+                        <li class="active"><a href="{{ path('dashboard') }}"><i class="fa fa-dashboard"></i><span>Tableau de bord</span></a></li>
+                        <li><a href="{{ path('professeurs') }}"><i class="fa fa-black-tie"></i><span>Professeurs</span></a></li>
+                        
+                        <li><a href="{{ path('etudiant_index') }}"><i class="fa fa-users"></i><span>Elèves</span></a></li>
+                        <li><a href="{{ path('formation_index') }}"><i class="fa fa-graduation-cap"></i><span>Formations</span></a></li>
+                        <li><a href="{{ path('matiere') }}"><i class="fa fa-graduation-cap"></i><span>Matieres</span></a></li>
+                        <li><a href="{{ path('notes') }}"><i class="fa fa-book"></i><span>Gestion des notes</span></a></li>
+                        <li><a href="holiday.html"><i class="fa fa-bullhorn"></i><span>Resultats</span></a></li>
+                        <li class="g_heading">Extra</li>
+                        <li><a href="events.html"><i class="fa fa-calendar"></i><span>Calendrier</span></a></li>
+                        <li><a href="app-chat.html"><i class="fa fa-comments-o"></i><span>Messagerie</span></a></li>
+                        <li><a href="app-contact.html"><i class="fa fa-address-book"></i><span>Contact</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tab-pane fade" id="menu-admin" role="tabpanel">
+                <nav class="sidebar-nav">
+                    <ul class="metismenu">
+                        <li><a href="payments.html"><i class="fa fa-credit-card"></i><span>Paiements</span></a></li>
+                        <li><a href="noticeboard.html"><i class="fa fa-dashboard"></i><span>Tableau d'affichage</span></a></li>
+                        <li><a href="taskboard.html"><i class="fa fa-list-ul"></i><span>Tableau des taches</span></a></li>
+                        <li><a href="setting.html"><i class="fa fa-gear"></i><span>Parametres de configuration</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>

@@ -1,3 +1,4 @@
+{% set selectedAnnee = app.session.get('annee_scolaire') %}
 <div class="section-body" id="page_top">
     <div class="container-fluid">
         <div class="page-header">
@@ -10,16 +11,24 @@
                 </div>
             </div>
             <div class="right">
+                {% if selectedAnnee is not null %}
+                    <span class="tag tag-success">{{ selectedAnnee.dateDebut|date('M Y') }} - {{ selectedAnnee.dateFin|date('M Y') }} </span>
+                {% endif %}
                 <ul class="nav nav-pills">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Annee scolaire</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="page-empty.html">Empty page</a>
-                            <a class="dropdown-item" href="page-profile.html">Profile</a>
-                            <a class="dropdown-item" href="page-search.html">Search Results</a>
-                            <a class="dropdown-item" href="page-timeline.html">Timeline</a>
-                            <a class="dropdown-item" href="page-invoices.html">Invoices</a>
-                            <a class="dropdown-item" href="page-pricing.html">Pricing</a>
+                            {% for annee in annees %}
+                                {% if annee.statut.id == 3 %}
+                                    <a class="dropdown-item annee_scolaire" data-id="{{ annee.id }}" href="#">{{ annee.dateDebut|date('M Y') }} - {{ annee.dateFin|date('M Y') }} <small>({{ annee.statut.statutName }})</small></a>
+                                {% elseif annee.statut.id == 1 %}
+                                    <a class="dropdown-item annee_scolaire" data-id="{{ annee.id }}" href="#">{{ annee.dateDebut|date('M Y') }} - {{ annee.dateFin|date('M Y') }} <small>({{ annee.statut.statutName }})</small></a>
+                                {% elseif annee.statut.id == 2 %}
+                                    <a class="dropdown-item annee_scolaire" data-id="{{ annee.id }}" href="#">{{ annee.dateDebut|date('M Y') }} - {{ annee.dateFin|date('M Y') }} <small>({{ annee.statut.statutName }})</small></a>
+                                {% elseif annee.statut.id == 4 %}
+                                    <a class="dropdown-item annee_scolaire" data-id="{{ annee.id }}" href="#">{{ annee.dateDebut|date('M Y') }} - {{ annee.dateFin|date('M Y') }} <small>({{ annee.statut.statutName }})</small></a>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </li>
                     <li class="nav-item dropdown">

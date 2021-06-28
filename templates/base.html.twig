@@ -1,56 +1,29 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-    <title>{% block title %}Welcome!{% endblock %}</title>
+    <title>{% block title %}{{school_name}}{% endblock %}</title>
     {% block stylesheets %}
     {% endblock %}
     <!-- Bootstrap Core and vandor -->
     <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}" />
-
     <!-- Plugins css -->
     <link rel="stylesheet" href="{{ asset('assets/plugins/summernote/dist/summernote.css') }}"/>
-
     <link rel="stylesheet" href="{{ asset('assets/css/style.min.css') }}"/>
-   
 </head>
 
 <body class="font-muli theme-cyan gradient">
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
-    <div class="loader">
-    </div>
+    <div class="loader"></div>
 </div>
 
 <div id="main_content">
-    <!-- Start Main top header -->
-
     <!-- Start Rightbar setting panel -->
     {{ include('common/right-sidebar.html.twig') }}
-    <!-- Start Theme panel do not add in project -->
-    <div class="theme_div">
-        <div class="card">
-            <div class="card-body">
-                <ul class="list-group list-unstyled">
-                    <li class="list-group-item mb-2">
-                        <p>Light Version</p>
-                        <a href="../university/index.html"><img src="../assets/images/themes/default.png" class="img-fluid" alt="" /></a>
-                    </li>
-                    <li class="list-group-item mb-2">
-                        <p>Dark Version</p>
-                        <a href="../university-dark/index.html"><img src="../assets/images/themes/dark.png" class="img-fluid" alt="" /></a>
-                    </li>
-                    <li class="list-group-item mb-2">
-                        <p>RTL Version</p>
-                        <a href="../university-rtl/index.html"><img src="../assets/images/themes/rtl.png" class="img-fluid" alt="" /></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
     <!-- Start Quick menu with more functio -->
     <div class="user_div">
         <ul class="nav nav-tabs">
@@ -60,112 +33,7 @@
             <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#righttab-Todo">Todo</a></li>
         </ul>
         <div class="tab-content mt-3">
-            <div class="tab-pane fade show active" id="righttab-statistics" role="tabpanel">
-                <div class="card">
-                    <div class="card-body">
-                        <div>Total Revenue</div>
-                        <div class="py-3 m-0 text-center h1 text-success">$79,452</div>
-                        <div class="d-flex">
-                            <span class="text-muted">Income</span>
-                            <div class="ml-auto"><i class="fa fa-caret-up text-success"></i>4%</div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-3">
-                                <div class="clearfix">
-                                    <div class="float-left"><strong>$43,320</strong></div>
-                                    <div class="float-right"><small class="text-muted">Bank of America</small></div>
-                                </div>
-                                <div class="progress progress-xxs">
-                                    <div class="progress-bar bg-azure" role="progressbar" style="width: 87%" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="clearfix">
-                                    <div class="float-left"><strong>$36,132</strong></div>
-                                    <div class="float-right"><small class="text-muted">Wells Fargo</small></div>
-                                </div>
-                                <div class="progress progress-xxs">
-                                    <div class="progress-bar bg-green" role="progressbar" style="width: 80%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body top_counter">
-                        <div class="icon bg-yellow"><i class="fa fa-users"></i> </div>
-                        <div class="content">
-                            <span>Total Student</span>
-                            <h5 class="number mb-0">2,051</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body top_counter">
-                        <div class="icon bg-gray"><i class="fa fa-sitemap"></i> </div>
-                        <div class="content">
-                            <span>Department</span>
-                            <h5 class="number mb-0">14</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body top_counter">
-                        <div class="icon bg-dark"><i class="fa fa-black-tie"></i> </div>
-                        <div class="content">
-                            <span>Total Teacher</span>
-                            <h5 class="number mb-0">27</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body top_counter">
-                        <div class="icon bg-azure"><i class="fa fa-tags"></i> </div>
-                        <div class="content">
-                            <span>Total Courses</span>
-                            <h5 class="number mb-0">31</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body top_counter">
-                        <div class="icon bg-pink"><i class="fa fa-credit-card"></i> </div>
-                        <div class="content">
-                            <span>Expense</span>
-                            <h5 class="number mb-0">$7,254</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body top_counter">
-                        <div class="icon bg-green"><i class="fa fa-bank"></i> </div>
-                        <div class="content">
-                            <span>Total Income</span>
-                            <h5 class="number mb-0">$27,852</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body top_counter">
-                        <div class="icon bg-cyan"><i class="fa fa-map-o"></i> </div>
-                        <div class="content">
-                            <span>Our Center</span>
-                            <h5 class="number mb-0">52</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body top_counter">
-                        <div class="icon bg-indigo"><i class="fa fa-smile-o"></i> </div>
-                        <div class="content">
-                            <span>Smiley Face</span>
-                            <h5 class="number mb-0">10K</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {{ render('statistics') }}
             <div class="tab-pane fade" id="righttab-Result" role="tabpanel">
                 <div class="card">
                     <div class="card-header">
@@ -1298,6 +1166,9 @@
 <script src=" {{ asset('assets/js/core.js') }}"></script>
 <script src=" {{ asset('assets/js/page/index.js') }}"></script>
 <script src=" {{ asset('assets/js/page/summernote.js') }}"></script>
+<script src="{{ asset('assets/js/choix_annee_scolaire.js') }}"></script>
+<script src="{{ asset('bundles/fosjsrouting/js/router.min.js') }}"></script>
+<script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
 {% block javascripts %}{% endblock %}
 </body>
 </html>

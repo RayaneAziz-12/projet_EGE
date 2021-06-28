@@ -1,0 +1,52 @@
+<div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Autres informations</h3>
+            <div class="card-options ">
+                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                <a href="#" class="card-options-remove" data-toggle="card-remove"><i class="fe fe-x"></i></a>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="row clearfix">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label>Annee Scolaire</label>
+
+                                <select class="form-control input-height" name="anneeScolaire" id="anneeScolaire" >
+                                    <option value="">Choisir...</option>
+                                    {% for annee in anneeScolaire %}
+                                        <option value="{{annee.id}}">{{annee.dateDebut|date('Y')}}-{{annee.dateFin|date('Y')}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label>Formation</label>
+                                <select class="form-control input-height" name="formation" id="formation" >
+                                    <option value="">Choisir...</option>
+                                    {% for form in formation %}
+                                        <option value="{{form.id}}">{{form.formation.nom}}</option>
+                                    {% endfor %}
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary" id="submit">Soumettre</button>
+                    <button type="button" class="btn btn-outline-secondary">Quitter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

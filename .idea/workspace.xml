@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cea0fc7-dd2f-4522-9d29-cde1852aa090" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/js/choix_annee_scolaire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AnneeScolaireController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/MenuController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/StatisticsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/common/statistics.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projet_EGE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet_EGE.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/EtudiantController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/EtudiantController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/AnneeScolaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/AnneeScolaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/page-top.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/page-top.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/etudiant/form/etudiant_form_part1.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/etudiant/form/etudiant_form_part1.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/etudiant/form/etudiant_form_part2.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/etudiant/form/etudiant_form_part2.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/etudiant/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/etudiant/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +31,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -181,6 +207,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/jsrouting-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -344,7 +372,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eregistrations-benin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -387,6 +415,10 @@
       <workItem from="1623922533082" duration="1480000" />
       <workItem from="1623962807483" duration="11490000" />
       <workItem from="1624003020126" duration="628000" />
+      <workItem from="1624734681786" duration="9422000" />
+      <workItem from="1624791318088" duration="7950000" />
+      <workItem from="1624817476760" duration="3412000" />
+      <workItem from="1624865757762" duration="1273000" />
     </task>
     <servers />
   </component>

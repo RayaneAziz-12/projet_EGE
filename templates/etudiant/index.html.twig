@@ -3,7 +3,7 @@
 {% block title %}Etudiant index{% endblock %}
 
 {% block body %}
-    {{ include('common/page-top.html.twig') }}
+    {{ render('top_menu') }}
     <div class="section-body">
             <div class="container-fluid">
                 <div class="d-flex justify-content-between align-items-center ">
@@ -71,7 +71,7 @@
                                 </thead>
                                 <tbody>
                                {% for etudiant in etudiants %}
-                               {% set formations = etudiant.formations %}
+                               {% set forms = etudiant.formations %}
                                     <tr>
                                         <td class="w60">
                                       
@@ -91,8 +91,8 @@
                                         <td>{{etudiant.user.email}}</td>
                                         <td>{{etudiant.user.telephone}}</td>
                                         <td>{{etudiant.user.dateNaissance|date('m/d/Y') }}</td>
-                                        <td>{% for formation in formations %}
-                                                {{formation.formation.nom}}   &nbsp;
+                                        <td>{% for form in forms %}
+                                                {{form.formation.nom}}   &nbsp;
                                             {% endfor %}
                                         </td>
                                         <td>
